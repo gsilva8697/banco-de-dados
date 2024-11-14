@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de Reclamações</title>
+    <link rel="stylesheet" href="pgdereclamacoes.css"/>
+    <style>
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Central de Reclamações</h1>
+    </header>
+
+    <div class="container">
+        <h2>Deixe sua Reclamação</h2>
+        <form action="enviar_reclamacao.php" method="POST">
+            <label for="nome">Seu ano/série</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Seu E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Data">Data da sua reclamação</label>
+            <input type="text" id="Data" name="Data" required>
+
+            <label for="reclamacao">Descrição da Reclamação</label>
+            <textarea id="reclamacao" name="reclamacao" rows="5" required></textarea>
+
+            <div class="button-container">
+                <a href="mensagemenviada.html" class="green-button">Enviar a reclamação</a>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p></p>
+    </footer>
+
+</body>
+</html>

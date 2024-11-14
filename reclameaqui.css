@@ -1,0 +1,53 @@
+/* Definindo um estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: mediumorchid;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para os links no menu de navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+/* Estilo para os links no menu de navegação quando o mouse passa por cima */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para as seções */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos dentro das seções */
+section h2 {
+    color: #333;
+}
